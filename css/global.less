@@ -191,13 +191,13 @@ div.table table {
     margin-bottom: 0;
 }
 th {
-    background: @ini_background_neu;
+    background: #1A1A1A;
     font-weight: bold;
 }
 th,
 td {
     padding: 10px;
-    border-bottom: 1px solid @ini_background_neu;
+    border-bottom: 1px solid #1A1A1A;
 }
 tr:last-of-type td {
     border-bottom: none;
@@ -242,8 +242,9 @@ input[type="reset"],
 input[type="submit"] {
     padding: 10px 20px;
     border: none;
-    background: @ini_theme_color;
-    color: @ini_background;
+    //background: @ini_theme_color;
+    //color: @ini_background;
+    color: @ini_text;
     font-size: 14px;
     line-height: 1.5;
     font-weight: bold;
@@ -298,7 +299,7 @@ textarea {
     padding: 5px 10px;
     background: transparent;
     color: @ini_text;
-    border: 5px solid @ini_background_alt;
+    border: 5px solid @ini_border;
     font-size: 14px;
     line-height: 1.43;
     -webkit-box-sizing: border-box;
@@ -350,12 +351,12 @@ textarea {
 
 /* Links */
 a {
-    color: @ini_theme_color;
+    color: @ini_theme_color_alt;
 }
 a:hover,
 a:focus,
 a:active {
-    color: @ini_theme_color_alt;
+    color: @ini_theme_color;
 }
 
 /* Transition */
